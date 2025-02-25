@@ -7,8 +7,8 @@ import cors from "cors";
 import {wares} from "./middleware/";
 
 
-const PORT = process.env.PORT || 3003
-const ULR_CORS = process.env.URL_CORS || ["http://localhost:3000"]
+const PORT = process.env.PORT || 3000
+const ULR_CORS = process.env.URL_CORS || ["http://localhost:3000","https://localhost:3000"]
 
 
 
